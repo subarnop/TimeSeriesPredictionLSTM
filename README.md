@@ -20,6 +20,7 @@ By traing the network for 100 epochs with 1 look back window we got an Root Mean
 
 Thus we can see that the **previous 5 years** have significant influence on the value of the wages in the dataset.
 Here we display the resulting graphgs due to fine tuning the look back window:
+
 <div>
   <div><img width="320" src="https://github.com/Subarno/TimeSeriesPredictionLSTM/blob/master/img/result_plot_lstm_1.png"> </div>
   <div><img  width="320" src="https://github.com/Subarno/TimeSeriesPredictionLSTM/blob/master/img/result_plot_lstm_3.png"> </div>
@@ -30,7 +31,8 @@ Here we display the resulting graphgs due to fine tuning the look back window:
 ### Usage:
 1. Download/Clone the repository and get the dependenies.
 2. Set the desired look_back
-```$python3 lstm.py
+```
+$python3 lstm.py
 ```
 
 <br>
