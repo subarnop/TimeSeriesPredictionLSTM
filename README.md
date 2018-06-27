@@ -22,10 +22,10 @@ Thus we can see that the **previous 5 years** have significant influence on the 
 Here we display the resulting graphgs due to fine tuning the look back window:
 
 <div>
-  <div><img width="320" src="https://github.com/Subarno/TimeSeriesPredictionLSTM/blob/master/img/result_plot_lstm_1.png"> </div>
-  <div><img  width="320" src="https://github.com/Subarno/TimeSeriesPredictionLSTM/blob/master/img/result_plot_lstm_3.png"> </div>
-  <div><img  width="320" src="https://github.com/Subarno/TimeSeriesPredictionLSTM/blob/master/img/result_plot_lstm_5.png"></div>
-  <div><img  width="320" src="https://github.com/Subarno/TimeSeriesPredictionLSTM/blob/master/img/result_plot_lstm_10.png"></div>
+  <div><img width="300" src="https://github.com/Subarno/TimeSeriesPredictionLSTM/blob/master/img/result_plot_lstm_1.png"> </div>
+  <div><img  width="300" src="https://github.com/Subarno/TimeSeriesPredictionLSTM/blob/master/img/result_plot_lstm_3.png"> </div>
+  <div><img  width="300" src="https://github.com/Subarno/TimeSeriesPredictionLSTM/blob/master/img/result_plot_lstm_5.png"></div>
+  <div><img  width="300" src="https://github.com/Subarno/TimeSeriesPredictionLSTM/blob/master/img/result_plot_lstm_10.png"></div>
 </div>
 
 ### Usage:
