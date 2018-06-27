@@ -1,17 +1,18 @@
-# TimeSeriesPredictionLSTM
-look_back = 1
-Train Score: 0.57 RMSE
-Test Score: 1.99 RMSE
+## Time Series Prediction using LSTM Recurrent Neural Network
 
-look_back = 10
-Train Score: 0.54 RMSE
-Test Score: 17.01 RMSE
+A time series is a series of data points indexed in time order. Most commonly, a time series is a sequence taken at successive equally spaced points in time. Time series analysis comprises methods for analyzing time series data in order to extract meaningful statistics and other characteristics of the data. Time series forecasting/prediction is the use of a model to predict future values based on previously observed values. <br>
+We work on a dataset consisting of <b> the daily wage of England </b> (1260-1994) in pounds. This dataset a very rough dataset and the biggest challenge is that when we break it into 3:1 Train and Test, the charecterstics changes highly in Test part. This stiff growth and changes in wage is mainly due to the Industrial Revolution during the 1820s.<br>
 
-look_back = 5
-Train Score: 0.58 RMSE
-Test Score: 1.58 RMSE
+<p align="center"> <img src="https://github.com/Subarno/TimeSeriesPredictionLSTM/blob/master/img/data_plot.png"> </p>
 
-look_back = 3
-Train Score: 0.55 RMSE
-Test Score: 1.70 RMSE
-
+Generally time series prediction is done using well established statistical models such as SMA, ARIMA, ARIMAX but we will approach it using Recurrent Neural Nets and show a convincing result. Long Short Term Memory networks – usually just called “LSTMs” – are a special kind of RNN, capable of learning long-term dependencies. They were introduced by Hochreiter & Schmidhuber (1997), and were refined and popularized by many people in their work. They work tremendously well on a large variety of problems, and are now widely used. 
+<p align="center"> 
+<img  src="https://github.com/Subarno/TimeSeriesPredictionLSTM/blob/master/img/model_lstm.png"> 
+</p>
+By traing the network for 100 epochs with 1 look back window we got an Root Mean square (RMSE) error of 1.99 which is quite an acceptable result. We then finetune network updating the look back window size and check the result training for 100 epochs. <br>
+| look_back | Train Score (RMSE) |  Test Score (RMSE) |
+| --- | --- | --- |
+| 01 | 0.57 | 1.99 |
+| 03 | 0.55 | 1.70 |
+| 05 | 0.58 | **1.58** |
+| 10 | 0.54 | *17.01* |
