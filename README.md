@@ -21,7 +21,7 @@ By traing the network for 100 epochs with 1 look back window we got an Root Mean
 Thus we can see that the **previous 5 years** have significant influence on the value of the wages in the dataset.
 Here we display the resulting graphgs due to fine tuning the look back window:
 
-<img width="320" src="https://github.com/Subarno/TimeSeriesPredictionLSTM/blob/master/img/result_plot_lstm_1.png"> 
+<img  align = "left" width="320" src="https://github.com/Subarno/TimeSeriesPredictionLSTM/blob/master/img/result_plot_lstm_1.png"> 
 <img  width="320" src="https://github.com/Subarno/TimeSeriesPredictionLSTM/blob/master/img/result_plot_lstm_3.png">
 <img  width="320" src="https://github.com/Subarno/TimeSeriesPredictionLSTM/blob/master/img/result_plot_lstm_5.png">
 <img  width="320" src="https://github.com/Subarno/TimeSeriesPredictionLSTM/blob/master/img/result_plot_lstm_10.png">
