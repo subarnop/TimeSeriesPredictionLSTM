@@ -23,7 +23,7 @@ Here we display the resulting graphgs due to fine tuning the look back window:
 
 <img  align = "left" width="320" src="https://github.com/Subarno/TimeSeriesPredictionLSTM/blob/master/img/result_plot_lstm_1.png"> 
 <img  width="320" src="https://github.com/Subarno/TimeSeriesPredictionLSTM/blob/master/img/result_plot_lstm_3.png">
-<img  width="320" src="https://github.com/Subarno/TimeSeriesPredictionLSTM/blob/master/img/result_plot_lstm_5.png">
+<img  align = "left" width="320" src="https://github.com/Subarno/TimeSeriesPredictionLSTM/blob/master/img/result_plot_lstm_5.png">
 <img  width="320" src="https://github.com/Subarno/TimeSeriesPredictionLSTM/blob/master/img/result_plot_lstm_10.png">
 
 ### Usage:
